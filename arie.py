@@ -27,7 +27,7 @@ def take_command():
             command.lower()
             if 'alexa' in command:
 
-                command=command.replace('alexa','')
+                command=command.replace('Arie','')
                 print(command)
         except:
             pass
